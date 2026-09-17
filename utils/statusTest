@@ -1,0 +1,9 @@
+const success = "Success";
+const error = "Error";
+const fail = "Fail";
+
+module.exports = {
+  success,
+  error,
+  fail
+};

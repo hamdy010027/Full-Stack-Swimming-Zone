@@ -1,0 +1,71 @@
+<!Doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-panel">
+        <h1>Hello, Welcome!</h1>
+        <p>Don't have an account?</p>
+        <a href="./frontend/html/register.html" class="btn-outline">Register</a>
+      </div>
+
+      <div class="right-panel">
+        <h2>Login</h2>
+        <form id="contactForm" method="post">
+          <div class="input-box">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+
+          <div class="input-box">
+            <label for="pass">Password</label>
+            <input
+              type="password"
+              id="pass"
+              name="pass"
+              placeholder="Enter your password"
+              required
+            />
+            <i class="fa-solid fa-lock"></i>
+          </div>
+
+          <div class="forgot-link">
+            <a href="./frontend/html/forget-password.html">Forgot Password?</a>
+          </div>
+
+          <button type="submit" class="btn-submit">Login</button>
+        </form>
+
+        <p class="social-text">or login with social platforms</p>
+
+        <div class="social-icons">
+          <a href="https://www.instagram.com/swimming_zone_egypt?stkn=YWk3M3Uwa2Framwz"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/share/1Qc4uaDecM/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.tiktok.com/@swimming.zone.egy?_r=1&_t=ZS-99oFSf0Ez0m"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://wa.me/+201069098373"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
