@@ -25,7 +25,7 @@ form.addEventListener("submit", async (e) => {
     if (response.ok) {
       alert("LOGIN SUCCESS");
 
-      window.location.href = "D:/projects/Full_Stack_project/FullStackSwimmingZone/backend/frontend/front-swimmingzone/index.html";
+      window.location.href = "/frontend/front-swimmingzone/index.html";
     } else {
       alert(JSON.stringify(data));
     }
